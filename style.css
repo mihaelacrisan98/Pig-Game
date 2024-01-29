@@ -169,3 +169,45 @@ main {
 .hidden {
   display: none;
 }
+
+/* Media query pentru ecrane mici (telefoane) */
+@media only screen and (max-width: 700px) {
+  main {
+    width: 90%; /* Ajustează lățimea pentru ecrane mici */
+  }
+
+  .player {
+    padding: 1rem; /* Ajustează padding-ul pentru ecrane mici */
+  }
+
+  .name {
+    font-size: 1rem; /* Ajustează dimensiunea fontului pentru ecrane mici */
+  }
+
+  .score {
+    font-size: 5rem; /* Ajustează dimensiunea fontului pentru ecrane mici */
+  }
+
+  .current {
+    padding: 1rem; /* Ajustează padding-ul pentru ecrane mici */
+  }
+
+  .current-label {
+    font-size: 1.2rem; /* Ajustează dimensiunea fontului pentru ecrane mici */
+  }
+
+  .current-score {
+    font-size: 2rem; /* Ajustează dimensiunea fontului pentru ecrane mici */
+  }
+
+  .btn {
+    font-size: 1.5rem; /* Ajustează dimensiunea fontului pentru ecrane mici */
+    padding: 0.5rem 1.5rem; /* Ajustează padding-ul pentru ecrane mici */
+  }
+  .btn--new {
+    top: 10rem;
+  }
+  .dice {
+    height: 7rem; /* Ajustează dimensiunea imaginii pentru ecrane mici */
+  }
+}
